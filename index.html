@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Pop cat clicker</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    
+    <div class="parent">
+        <div class="div1"><div class="divbox">
+ 
+         <h1 id="count">  <span>0</span> Pops</h1>
+         <h2>Pops per click:<span  id="ppc">1</span></h2>
+          
+            <h3>Pops per second(Pps):<span id="pps">0.0</span></h3>
+            </div>  </div>
+
+           
+            
+        <div class="div2"> <div class="mainbox">
+            <img type="image"   onclick="myFunction()"  id="cat" src="images/popcato.png" width="350px" height="350px">
+            <source id="audio1" src=”POP.mp3”>
+        </div>
+        </div>
+        
+        <div class="div3">
+            <button onmousedown="myBooster()"  class="button1">PPS upgrade (Costs 100 pops)</button>
+            <button onmousedown="myUpgrade()"  class="button">Upgrade + 2 (Costs 30 pops)</button>
+            <button onmousedown="myUpgrade2()" class="button">Upgrade + 10 (Costs 500 pops)</button>
+            <button onmousedown="myUpgrade3()" class="button">Upgrade + 30 (Costs 1000 pops)</button>
+            <button onmousedown="myUpgrade4()" class="button">Upgrade + 1000< (Costs 100000 pops)</button> 
+            
+        </div>
+        
+    </div>
+
+
+
+
+<script src="javascript.js"></script>
+</body>
+</html>
